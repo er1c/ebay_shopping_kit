@@ -1,4 +1,9 @@
-ebay_shopping_kit
-=================
+Based Upon the eBay Findings Kit for Java (http://developer.ebay.com/DevZone/codebase/javasdk-jaxb/FindingKitJava_1.0.zip)
 
-Create a Java Wrapper API based upon the ebay_fidings_kit (http://developer.ebay.com/DevZone/codebase/javasdk-jaxb/FindingKitJava_1.0.zip) but for the Shopping API (http://developer.ebay.com/Devzone/shopping/docs/CallRef/index.html)
+Create jar with:
+
+$ ant jar
+
+Will create: lib/shopping.jar
+
+To update wsdl file to a newer version simply replace wsdl/ShoppingService.wsdl
